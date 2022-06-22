@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		#divTong{
+            width: 100%;
+            height: 800px;
+			background: red;
+		}
+		#divTrai{
+            width: 15%;
+            height: 100%;
+			background: black;
+			float: left;
+			position: relative;
+		}
+		
+
+		#divGiua{
+            width: 5%;
+            height: 100%;
+			background-image: url('C:/Users/ADMIN/Desktop/CSS/soc.jpg');
+			float: left;
+
+		}
+		#divPhai{
+            width: 80%;
+            height: 100%;
+			background-image: url('C:/Users/ADMIN/Desktop/CSS/sua1.gif');
+			background-repeat: no-repeat;
+			background-position: center;
+			float: left;
+		}
+		#divPhai > .trai{
+			width: 70%;
+			height: 100%;
+			background: black;
+			float: left;
+		}
+		#divPhai > .phai{
+         width: 30%;
+			height: 100%;
+			background: pink;
+			float: left;
+		}
+		#divPhai > .trai > .tren{
+			width: 100%;
+			height: 25%;
+			background: white;
+		}
+		#divPhai > .trai > .duoi{
+			width: 100%;
+			height:75%;
+			background: aqua;
+		}
+		
+		
+	</style>
+</head>
+<body>
+   <div id="divTong">
+   	  <div id="divTrai">
+   	  	<img src="C:\Users\ADMIN\Desktop\CSS\sanho.gif" style="width: 115%;z-index: 99; position: absolute; ">
+   	  </div>
+   	  <div id="divGiua">
+
+   	  </div>
+   	  <div id="divPhai">
+    	  	<div class="trai">
+    	  		<div class="tren">
+    	  			<span><b size="35">THAM GIA CLB</b></span>
+    	  			<p>Quý độc giả hãy điền đầy đủ thông tin để tham gia phát triển Câu lạc bộ
+                    ngày càng vững mạnh hơn.</p>
+    	  		</div>
+    	  		<div class="duoi">
+    	  		
+    	  				<table class="center">
+    	  				<form>
+    	  					<tr>
+    	  						<td>
+    	  							Họ và Tên:
+    	  						</td>
+    	  						<td>
+    	  							<input type="text">
+    	  						</td>
+    	  					</tr>
+    	  					<tr>
+    	  						<td>
+    	  							Địa chỉ:
+    	  						</td>
+    	  						<td>
+    	  							<input type="text">
+    	  						</td>
+    	  					</tr>
+    	  					<tr>
+    	  						<td>
+    	  							Email:
+    	  						</td>
+    	  						<td>
+    	  							<input type="Email">
+    	  						</td>
+    	  					</tr>
+    	  					<tr>
+    	  						<td>
+    	  							Điện thoai:
+    	  						</td>
+    	  						<td>
+    	  							<input type="number">
+    	  						</td>
+    	  					</tr>
+    	  					<tr>
+    	  						<td>
+    	  							Ngày sinh:
+    	  						</td>
+    	  						<td>
+    	  							<input type="date">
+    	  						</td>
+    	  					</tr>
+    	  					<tr>
+    	  						<td>
+    	  							Đề tài:
+    	  						</td>
+    	  						<td>
+    	  							<select>
+    	  								<option>Tìm hiểu Sứa biển</option>
+    	  							</select>
+    	  						</td>
+    	  					</tr>
+    	  					<tr>
+    	  						<td>
+    	  							Nhóm:
+    	  						</td>
+    	  						<td>
+    	  							<input type="radio" name="lưaChon">Nghiên Cứu
+    	  					    <br>
+    	  					    
+    	  							<input type="radio" name="lưaChon">Hải ngư
+    	  						<br>
+
+    	  							<input type="radio" name="lưaChon">Viễn dương
+    	  						<br>
+    	  						    <input type="radio" name="lưaChon">Mỹ Thuật
+    	  						<br>
+
+    	  							<input type="radio" name="lưaChon">Thực phẩm
+    	  						<br>
+    	  						    <input type="radio" name="lưaChon">Sinh viên
+
+    	  						</td>
+    	  					</tr>
+    	  					<tr>
+    	  						<td>Gởi hình:</td>
+    	  						<td>
+    	  							<input type="file">
+    	  						</td>
+    	  					</tr>
+    	  					<tr>
+    	  						<td>Tài liệu</td>
+    	  						<td>
+    	  							<input type="checkbox">Sinh vật biển
+    	  						<br>
+    	  							<input type="checkbox">Các loài sứa
+    	  						<br>
+    	  							<input type="checkbox">San hô
+    	  						<br>
+    	  							<input type="checkbox">Môi trường biển
+    	  						<br>
+    	  							<input type="checkbox">Khí hậu
+    	  						</td>
+    	  					</tr>
+    	  			<tr>
+    	  				<td colspan="2">
+    	  				<button type="submit">Tham Gia</button>
+    	  				<button type="cancle">Xoá Thông Tin</button>
+    	  			    </td>
+    	  			</tr>
+    	  				</form>
+    	  			</table>
+    	  		</div>
+    	  	</div>
+    	  	<div class="phai">
+    	  		<img src="C:\Users\ADMIN\Desktop\CSS\nhom1a.jpg" style="width: 50%; align: center;">
+    	  		<img src="C:\Users\ADMIN\Desktop\CSS\nhom1b.jpg" style="width: 50%;">
+    	  		<img src="C:\Users\ADMIN\Desktop\CSS\nhom1c.jpg" style="width: 50%;">
+    	  		<img src="C:\Users\ADMIN\Desktop\CSS\nhom1d.jpg" style="width: 50%;">
+    	  	</div>
+   	  	      	  	
+   	  </div>
+   </div>
+</body>
+</html>
